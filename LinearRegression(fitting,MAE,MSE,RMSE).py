@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 # Load dataset (replace with your file name)
-df = pd.read_csv("D:/7013-DS/ML/datasets/linearregressiondataset.CSV")
+df = pd.read_csv("ML/datasets/linearregressiondataset.CSV")
 
 # Show first rows (optional)
 print(df.head())

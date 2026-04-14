@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score
 
-data = pd.read_csv('D:/7013-DS/ML/datasets/pima-indians-diabetes.csv')
+data = pd.read_csv('ML/datasets/pima-indians-diabetes.csv')
 
 # Split data into features and target variable
 X = data.drop('Outcome', axis=1)

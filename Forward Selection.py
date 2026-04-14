@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 
 # Load dataset (FIXED PATH)
-df = pd.read_csv("D:/7013-DS/ML/auto-mpg.csv")
+df = pd.read_csv("ML/auto-mpg.csv")
 
 # Replace '?' with NaN
 df.replace('?', np.nan, inplace=True)
